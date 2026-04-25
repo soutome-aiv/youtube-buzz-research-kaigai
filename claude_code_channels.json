@@ -1,0 +1,614 @@
+{
+  "scanned_at": "2026-04-24T16:29:53.697060",
+  "total_channels": 86,
+  "classified": {
+    "大型 (>100万)": [
+      {
+        "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
+        "title": "NetworkChuck",
+        "subscriber_count": "5230000",
+        "video_count": "586",
+        "view_count": "397439248"
+      },
+      {
+        "channel_id": "UCsBjURrPoezykLs9EqgamOA",
+        "title": "Fireship",
+        "subscriber_count": "4190000",
+        "video_count": "805",
+        "view_count": "693994228"
+      },
+      {
+        "channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+        "title": "freeCodeCamp.org",
+        "subscriber_count": "11600000",
+        "video_count": "2214",
+        "view_count": "965565062"
+      },
+      {
+        "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig",
+        "title": "Krish Naik",
+        "subscriber_count": "1410000",
+        "video_count": "2103",
+        "view_count": "133797890"
+      },
+      {
+        "channel_id": "UCoOae5nYA7VqaXzerajD0lg",
+        "title": "Ali Abdaal",
+        "subscriber_count": "6580000",
+        "video_count": "1373",
+        "view_count": "539169946"
+      },
+      {
+        "channel_id": "UCs6nmQViDpUw0nuIx9c_WvA",
+        "title": "ProgrammingKnowledge",
+        "subscriber_count": "1870000",
+        "video_count": "4351",
+        "view_count": "328048078"
+      },
+      {
+        "channel_id": "UCW5YeuERMmlnqo4oq8vwUpg",
+        "title": "Net Ninja",
+        "subscriber_count": "1870000",
+        "video_count": "2778",
+        "view_count": "211382561"
+      },
+      {
+        "channel_id": "UCqyBfm_H9ugGirk1ufYA2YA",
+        "title": "Learn Skills Daily",
+        "subscriber_count": "1040000",
+        "video_count": "672",
+        "view_count": "86626959"
+      },
+      {
+        "channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ",
+        "title": "The PrimeTime",
+        "subscriber_count": "1100000",
+        "video_count": "1940",
+        "view_count": "375975179"
+      },
+      {
+        "channel_id": "UC1yBKRuGpC1tSM73A0ZjYjQ",
+        "title": "The Young Turks",
+        "subscriber_count": "6580000",
+        "video_count": "71578",
+        "view_count": "7368086753"
+      }
+    ],
+    "中型 (10万～100万)": [
+      {
+        "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+        "title": "Anthropic",
+        "subscriber_count": "554000",
+        "video_count": "170",
+        "view_count": "23929422"
+      },
+      {
+        "channel_id": "UCV03SRZXJEz-hchIAogeJOg",
+        "title": "Claude",
+        "subscriber_count": "203000",
+        "video_count": "38",
+        "view_count": "6684707"
+      },
+      {
+        "channel_id": "UCe4eqh2Rs4bkjDRrjZQWkZw",
+        "title": "Pragati Kunwer | Claude Code",
+        "subscriber_count": "113000",
+        "video_count": "105",
+        "view_count": "35300"
+      },
+      {
+        "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+        "title": "Nate Herk | AI Automation",
+        "subscriber_count": "684000",
+        "video_count": "398",
+        "view_count": "32402386"
+      },
+      {
+        "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA",
+        "title": "Cole Medin",
+        "subscriber_count": "202000",
+        "video_count": "259",
+        "view_count": "10593534"
+      },
+      {
+        "channel_id": "UC1Wn8F-xff2j4hR9ZZ1UsyA",
+        "title": "Claude Ams - Programming Guru 💻",
+        "subscriber_count": "412000",
+        "video_count": "6053",
+        "view_count": "486608229"
+      },
+      {
+        "channel_id": "UCelfWQr9sXVMTvBzviPGlFw",
+        "title": "AI LABS",
+        "subscriber_count": "131000",
+        "video_count": "222",
+        "view_count": "7116176"
+      },
+      {
+        "channel_id": "UCPjNBjflYl0-HQtUvOx0Ibw",
+        "title": "Greg Isenberg",
+        "subscriber_count": "613000",
+        "video_count": "768",
+        "view_count": "30951494"
+      },
+      {
+        "channel_id": "UCwSozl89jl2zUDzQ4jGJD3g",
+        "title": "Skill Leap AI",
+        "subscriber_count": "326000",
+        "video_count": "343",
+        "view_count": "30746255"
+      },
+      {
+        "channel_id": "UCNbdZwVJrNJJuQWjZFLxWmQ",
+        "title": "Leonard Jo",
+        "subscriber_count": "301000",
+        "video_count": "1606",
+        "view_count": "81788102"
+      },
+      {
+        "channel_id": "UCvG9V9e1s2lN-hoWeHsDCJQ",
+        "title": "Tyler Moore",
+        "subscriber_count": "472000",
+        "video_count": "244",
+        "view_count": "50209465"
+      },
+      {
+        "channel_id": "UCbRP3c757lWg9M-U7TyEkXA",
+        "title": "Theo - t3․gg",
+        "subscriber_count": "529000",
+        "video_count": "1024",
+        "view_count": "98747547"
+      },
+      {
+        "channel_id": "UCMcoud_ZW7cfxeIugBflSBw",
+        "title": "Riley Brown",
+        "subscriber_count": "218000",
+        "video_count": "173",
+        "view_count": "8175670"
+      },
+      {
+        "channel_id": "UC_x36zCEGilGpB1m-V4gmjg",
+        "title": "IndyDevDan",
+        "subscriber_count": "129000",
+        "video_count": "193",
+        "view_count": "4157555"
+      },
+      {
+        "channel_id": "UCi8C7TNs2ohrc6hnRQ5Sn2w",
+        "title": "Kai Lentit",
+        "subscriber_count": "350000",
+        "video_count": "131",
+        "view_count": "83036896"
+      },
+      {
+        "channel_id": "UC0m81bQuthaQZmFbXEY9QSw",
+        "title": "AICodeKing",
+        "subscriber_count": "127000",
+        "video_count": "860",
+        "view_count": "14168322"
+      },
+      {
+        "channel_id": "UCfQNB91qRP_5ILeu_S_bSkg",
+        "title": "Alex Finn",
+        "subscriber_count": "190000",
+        "video_count": "238",
+        "view_count": "8103298"
+      },
+      {
+        "channel_id": "UCJFMlSxcvlZg5yZUYJT0Pug",
+        "title": "corbin",
+        "subscriber_count": "167000",
+        "video_count": "190",
+        "view_count": "8443364"
+      },
+      {
+        "channel_id": "UChpleBmo18P08aKCIgti38g",
+        "title": "Matt Wolfe",
+        "subscriber_count": "933000",
+        "video_count": "662",
+        "view_count": "72205079"
+      },
+      {
+        "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+        "title": "AI Engineer",
+        "subscriber_count": "415000",
+        "video_count": "652",
+        "view_count": "14022836"
+      }
+    ],
+    "小型 (<10万)": [
+      {
+        "channel_id": "UCmL7cQmNgV-3FxaB3Ueoixg",
+        "title": "Claude Code Updates",
+        "subscriber_count": "1020",
+        "video_count": "54",
+        "view_count": "26160"
+      },
+      {
+        "channel_id": "UCoWs1E6OLTqv6BMUjgZENMw",
+        "title": "Adrian CHIAPELLO | Claude Code",
+        "subscriber_count": "2530",
+        "video_count": "60",
+        "view_count": "112105"
+      },
+      {
+        "channel_id": "UCNabExUbWCar1WvCGWaPNdQ",
+        "title": "Daniel Ávila | Claude Code",
+        "subscriber_count": "5450",
+        "video_count": "112",
+        "view_count": "200768"
+      },
+      {
+        "channel_id": "UCy0DLX2x9Lrkkd9ZxGvb32w",
+        "title": "Claude Code Akademie",
+        "subscriber_count": "1270",
+        "video_count": "11",
+        "view_count": "27484"
+      },
+      {
+        "channel_id": "UCMf-fOs52JfrXTCH9NJeiCQ",
+        "title": "Claude Code Lab",
+        "subscriber_count": "340",
+        "video_count": "48",
+        "view_count": "26148"
+      },
+      {
+        "channel_id": "UCt6OiIC9CxSRrABs2Yu-d7Q",
+        "title": "☕️ Claude Code Cafe",
+        "subscriber_count": "3",
+        "video_count": "17",
+        "view_count": "222"
+      },
+      {
+        "channel_id": "UCZmhzciCQRLmN1YBS3qbmpA",
+        "title": "Claude Code Pirates",
+        "subscriber_count": "2",
+        "video_count": "9",
+        "view_count": "89"
+      },
+      {
+        "channel_id": "UCBSs9Zj5HDv0t_oHEhJAhgA",
+        "title": "claude code 4.6",
+        "subscriber_count": "398",
+        "video_count": "454",
+        "view_count": "168187"
+      },
+      {
+        "channel_id": "UCi_tQ0xibPSMzMjvFzcFMfw",
+        "title": "Claude Code Hacks",
+        "subscriber_count": "3",
+        "video_count": "6",
+        "view_count": "3699"
+      },
+      {
+        "channel_id": "UC38lAMI1UrSpx4ii16GEWVA",
+        "title": "Architect with Claude Code",
+        "subscriber_count": "13",
+        "video_count": "1",
+        "view_count": "631"
+      },
+      {
+        "channel_id": "UCDlfXe12YckTzdKaKhWRuxQ",
+        "title": "Claw API Gate",
+        "subscriber_count": "0",
+        "video_count": "2",
+        "view_count": "219"
+      },
+      {
+        "channel_id": "UCMTPVwhn8A_6VuB8Q_g38Nw",
+        "title": "☕ Claude Code Cafe",
+        "subscriber_count": "120",
+        "video_count": "63",
+        "view_count": "36939"
+      },
+      {
+        "channel_id": "UCRc8irQezq1cdk5evvFtQCw",
+        "title": "Liam Cook AI",
+        "subscriber_count": "9",
+        "video_count": "8",
+        "view_count": "5938"
+      },
+      {
+        "channel_id": "UCDDOMPHQrtMH2Pwax_T0UKg",
+        "title": "Coev AI",
+        "subscriber_count": "37",
+        "video_count": "24",
+        "view_count": "3623"
+      },
+      {
+        "channel_id": "UCflwSBMh4jCTxYDF5ruZJkw",
+        "title": "PoloAPI",
+        "subscriber_count": "8",
+        "video_count": "33",
+        "view_count": "1003"
+      },
+      {
+        "channel_id": "UCxL9iGkRV5qd_KyJjNW3tFg",
+        "title": "surfmind",
+        "subscriber_count": "9",
+        "video_count": "6",
+        "view_count": "847"
+      },
+      {
+        "channel_id": "UCXZFVVCFahewxr3est7aT7Q",
+        "title": "Mckay Wrigley",
+        "subscriber_count": "26300",
+        "video_count": "22",
+        "view_count": "621205"
+      },
+      {
+        "channel_id": "UCL1rixu0PdvZsjm2PDxyVWA",
+        "title": "ShipFaster",
+        "subscriber_count": "34",
+        "video_count": "93",
+        "view_count": "33424"
+      },
+      {
+        "channel_id": "UCYJbCJE5HR4nlfOVb0Xxx8g",
+        "title": "jean Claude api",
+        "subscriber_count": "0",
+        "video_count": "4",
+        "view_count": "2653"
+      },
+      {
+        "channel_id": "UCoGca0O2C8YbigrPSbIZ3bw",
+        "title": "@aifirewire",
+        "subscriber_count": "40",
+        "video_count": "21",
+        "view_count": "1156"
+      },
+      {
+        "channel_id": "UCv83ZNSTRQD0-R3prQemRIA",
+        "title": "Agent 37",
+        "subscriber_count": "30",
+        "video_count": "19",
+        "view_count": "3935"
+      },
+      {
+        "channel_id": "UCNjRp7CEOp-YUmEhQHjt7jA",
+        "title": "MCP-Builder-ai",
+        "subscriber_count": "13",
+        "video_count": "12",
+        "view_count": "2810"
+      },
+      {
+        "channel_id": "UC-8SNV4uIOe5vKPj0Vj_p6w",
+        "title": "Claude by Anthropic",
+        "subscriber_count": "1",
+        "video_count": "0",
+        "view_count": "0"
+      },
+      {
+        "channel_id": "UC186YyhwtjTaXtBw26Www4g",
+        "title": "Claude by Anthropic",
+        "subscriber_count": "1",
+        "video_count": "0",
+        "view_count": "0"
+      },
+      {
+        "channel_id": "UCCzU5gJBi8R88ssGCMBGfLQ",
+        "title": "Claude by Anthropic",
+        "subscriber_count": "1",
+        "video_count": "0",
+        "view_count": "0"
+      },
+      {
+        "channel_id": "UCB3_r2cXaYlpup_LnoDbzfQ",
+        "title": "Claude by Anthropic",
+        "subscriber_count": "1",
+        "video_count": "0",
+        "view_count": "0"
+      },
+      {
+        "channel_id": "UCWH-0BG3FrnJO-njsKyIs2A",
+        "title": "Claude24",
+        "subscriber_count": "70",
+        "video_count": "25",
+        "view_count": "15855"
+      },
+      {
+        "channel_id": "UCqxg1_ykL2Vpg_WZWJ7GGCg",
+        "title": "About Claude",
+        "subscriber_count": "50",
+        "video_count": "26",
+        "view_count": "2086"
+      },
+      {
+        "channel_id": "UCd4ABAUw_dGoB4XgIx9UlBQ",
+        "title": "Claudical",
+        "subscriber_count": "10100",
+        "video_count": "72",
+        "view_count": "486630"
+      },
+      {
+        "channel_id": "UCvwpIM7W1DP5J_2-ABNF46w",
+        "title": "Claude Learning Skool",
+        "subscriber_count": "2",
+        "video_count": "18",
+        "view_count": "822"
+      },
+      {
+        "channel_id": "UCc2CCvFDqsrkFjd40bdMN4w",
+        "title": "Claude Hacks",
+        "subscriber_count": "128",
+        "video_count": "51",
+        "view_count": "29279"
+      },
+      {
+        "channel_id": "UC-WM0KaWX8JmzyutxMNqy5Q",
+        "title": "AI Decoded",
+        "subscriber_count": "1",
+        "video_count": "9",
+        "view_count": "70"
+      },
+      {
+        "channel_id": "UCgQE3RXh1wWJFtnF_GPJLjQ",
+        "title": "Oh My Claude",
+        "subscriber_count": "236",
+        "video_count": "43",
+        "view_count": "152684"
+      },
+      {
+        "channel_id": "UCq76eSmLmju5LgM4lmDkn9g",
+        "title": "ClaudeAIUnlock",
+        "subscriber_count": "20",
+        "video_count": "10",
+        "view_count": "1005"
+      },
+      {
+        "channel_id": "UCSb0V7mWhsV_tDGmCB7c6fw",
+        "title": "Learning Claude",
+        "subscriber_count": "48",
+        "video_count": "1",
+        "view_count": "125"
+      },
+      {
+        "channel_id": "UCqTXzweukn8CIrzjMphqZqQ",
+        "title": "Claude The Fashion AI",
+        "subscriber_count": "1760",
+        "video_count": "59",
+        "view_count": "80618"
+      },
+      {
+        "channel_id": "UC2Jqu5wYQheTOqqOnSYMivg",
+        "title": "Claude Mastery",
+        "subscriber_count": "4",
+        "video_count": "5",
+        "view_count": "1265"
+      },
+      {
+        "channel_id": "UC0BHO4AbCeBpghWNifMbH5Q",
+        "title": "Leonardo Grigorio | Build & Ship with AI",
+        "subscriber_count": "28100",
+        "video_count": "100",
+        "view_count": "1573058"
+      },
+      {
+        "channel_id": "UC3axxLDekT57pFquQzIvUEA",
+        "title": "Ai Builders: VibeCode + Openclaw",
+        "subscriber_count": "2470",
+        "video_count": "467",
+        "view_count": "2491730"
+      },
+      {
+        "channel_id": "UCG4DTQvXHGtNSO1pxZrj9ng",
+        "title": "AI Hacks Security",
+        "subscriber_count": "4",
+        "video_count": "43",
+        "view_count": "562"
+      },
+      {
+        "channel_id": "UC_t4ONLeE7a0ut2rX32MvUw",
+        "title": "Claude Code & Everything AI",
+        "subscriber_count": "417",
+        "video_count": "256",
+        "view_count": "204944"
+      },
+      {
+        "channel_id": "UCa5y2OkGXKQgE3vUrquHUcw",
+        "title": "BMad Code",
+        "subscriber_count": "32600",
+        "video_count": "15",
+        "view_count": "654701"
+      },
+      {
+        "channel_id": "UCuNyOReHuOBJ3V1hJpZDabw",
+        "title": "claude unilak tutorial",
+        "subscriber_count": "90",
+        "video_count": "8",
+        "view_count": "1544"
+      },
+      {
+        "channel_id": "UCPVcrRLZeC0Iiv6u3oFMlhw",
+        "title": "Claudeworx",
+        "subscriber_count": "0",
+        "video_count": "1",
+        "view_count": "0"
+      },
+      {
+        "channel_id": "UCAzE9xOuVcRC8kIquU61A4A",
+        "title": "Claud Tutorial",
+        "subscriber_count": "0",
+        "video_count": "1",
+        "view_count": "32"
+      },
+      {
+        "channel_id": "UC-tOyjDnG-4l-7kgKXZl8yQ",
+        "title": "AI with Avthar",
+        "subscriber_count": "16400",
+        "video_count": "14",
+        "view_count": "517808"
+      },
+      {
+        "channel_id": "UC3xGUI2ENj-86adpm-USKbg",
+        "title": "LLMs for Devs",
+        "subscriber_count": "16800",
+        "video_count": "39",
+        "view_count": "336208"
+      },
+      {
+        "channel_id": "UCBX__dPYqDFqAN4QcWbnUbw",
+        "title": "Ras Mic",
+        "subscriber_count": "84400",
+        "video_count": "141",
+        "view_count": "2018471"
+      },
+      {
+        "channel_id": "UCRDTrhnw3HD4Ml5RidXoXWA",
+        "title": "Anthropic Ai",
+        "subscriber_count": "8",
+        "video_count": "6",
+        "view_count": "1726"
+      },
+      {
+        "channel_id": "UCxyknBNezp2nwlsVC_sbTXw",
+        "title": "Anthropic AI",
+        "subscriber_count": "0",
+        "video_count": "5",
+        "view_count": "4"
+      },
+      {
+        "channel_id": "UCUksjW7iI-O4AVjnkSB9Bvg",
+        "title": "Anthropic AI School ",
+        "subscriber_count": "1",
+        "video_count": "1",
+        "view_count": "4"
+      },
+      {
+        "channel_id": "UCwnjWG26dgZEB4wmH0C68lA",
+        "title": "Anthropic Labs",
+        "subscriber_count": "5",
+        "video_count": "1",
+        "view_count": "633"
+      },
+      {
+        "channel_id": "UCIomFkAj4Vq_rGX2Jot7D8A",
+        "title": "AI超元域",
+        "subscriber_count": "68400",
+        "video_count": "278",
+        "view_count": "4454404"
+      },
+      {
+        "channel_id": "UCuWq8fmaomKtuvnyb_m0zLQ",
+        "title": "AI Security Podcast",
+        "subscriber_count": "17000",
+        "video_count": "74",
+        "view_count": "182085"
+      },
+      {
+        "channel_id": "UCPZZFYlu4IyitUGtAyN91iw",
+        "title": "Anthropic Anthropic - Topic",
+        "subscriber_count": "15",
+        "video_count": "7",
+        "view_count": "554"
+      },
+      {
+        "channel_id": "UCqKpSZIavCUpYaWsHPVP4lg",
+        "title": "Anthropic - Topic",
+        "subscriber_count": "64",
+        "video_count": "67",
+        "view_count": "9565"
+      }
+    ]
+  }
+}

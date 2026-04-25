@@ -1,0 +1,60 @@
+rank,channel,video_title,pattern,views,likes,comments,subscriber_count,buzz_score,published,video_id
+1,Claude,Anthropic LabsによるClaude Designをご紹介します。,AI活用,702955,24160,1163,203000,346.28,2026-04-17,t_LBECIQQqs
+2,Kai Lentit,AIのCEO対エンジニア。,AI活用,295315,9442,187,350000,84.38,2026-04-14,CEz1AauzsAo
+3,Anthropic,AIが感情的に振る舞うとき,AI活用,270068,16692,1086,554000,48.75,2026-04-02,D4XTefP3Lsc
+4,Fireship,Googleは、オープンソースAIの常識をあっさりと覆した…。,AI活用,1297916,43961,1476,4190000,30.98,2026-04-08,-01ZCTt-CJw
+5,Greg Isenberg,AIエージェントとクロードのスキルがどのように機能するのか（分かりやすく解説）,AI活用,189012,5697,233,613000,30.83,2026-04-08,S_oN3vlzpMw
+6,Riley Brown,ChatGPTが世界最高のAI画像モデルになった,AI活用,63256,1316,147,218000,29.02,2026-04-22,NrKABtmG4zs
+7,Riley Brown,Codex フルコース 2026：最新の最高のAIコーディングツール,AI活用,53073,1836,74,218000,24.35,2026-04-20,KXIdYEdOPys
+8,IndyDevDan,私のPiエージェントチーム。クロードコードリークシグナル。ハーネスエンジニアリング,その他,31110,1073,134,129000,24.12,2026-04-06,RairMJflUSA
+9,corbin,Claude Designの使い方（初心者向け）,AI活用,39774,298,25,167000,23.82,2026-04-19,fxI8gac2yhE
+10,Alex Finn,OpenClaw完全チュートリアル：最初のAI従業員を設定しよう！,AI活用,43074,1484,165,190000,22.67,2026-04-21,mGcdxFPwBdU
+11,IndyDevDan,エージェントは1つだけでは不十分：クロード・コードを超えるエージェント・コーディング,その他,27958,943,127,129000,21.67,2026-03-30,M30gp1315Y4
+12,IndyDevDan,Pi CEOエージェント。Claude 1Mコンテキスト。マルチエージェントチーム。,AI活用,25741,780,97,129000,19.95,2026-03-23,TqjmTZRL31E
+13,Riley Brown,GPT 5.5 + Codex が史上最高のモデルになった,その他,40705,911,72,218000,18.67,2026-04-24,5XZxmkjsNos
+14,Claude,Anthropicが製品エンジニアリングでClaudeをどのように活用しているか,AI活用,34618,1075,78,203000,17.05,2026-04-20,ma7oe_5h0ag
+15,Alex Finn,Claude Codeの開発者が、Claude Code（Opus 4.7）を使いこなすための7つの秘訣を公開しました。,実装例,26982,929,55,190000,14.2,2026-04-18,8YhYtIF9PYI
+16,IndyDevDan,未出荷モデル第1弾：クロード・ミトス（シニアエンジニアによる解説）,その他,17785,730,105,129000,13.79,2026-04-13,RvowJ_hmLps
+17,The PrimeTime,ローラーコースタータイクーンの最適化は驚異的だ,その他,150325,8381,510,1100000,13.67,2026-04-24,ZANFhJ9HYsM
+18,NetworkChuck,ミラ・ジョヴォヴィッチがAIメモリツールを開発した……なかなか良い出来だ,実装例,635976,25377,689,5230000,12.16,2026-04-07,kerRwLePW7I
+19,Claude,PowerPointでClaudeを使ってよりスマートに作業しましょう,AI活用,20644,448,27,203000,10.17,2026-04-16,gRLMG5YNNTo
+20,NetworkChuck,iPhone版Gemma 4（ローカルAI、インターネット接続不要）,AI活用,521503,27966,702,5230000,9.97,2026-04-05,d0gTthacB5c
+21,Alex Finn,これまで見た中で最高のClaude Designのワークフロー…,AI活用,16766,667,54,190000,8.82,2026-04-22,_v_heNg0j1c
+22,Cole Medin,Pi Coding Agent + Archon：あらゆるAIコーディングワークフローを構築可能（Claudeコードの肥大化なし）,AI活用,14275,379,63,202000,7.07,2026-04-20,XSmI7OYd7iM
+23,Matt Wolfe,AIニュース：今年最大の飛躍！,AI活用,61254,2311,183,933000,6.57,2026-04-24,jsP-eRriC0k
+24,Riley Brown,"Codexが1,000時間分の動画編集チュートリアルを刷新",その他,14288,719,32,218000,6.55,2026-04-24,Xdy1vkhSz-M
+25,Greg Isenberg,誰も知らない私のクロード・コードのワークフロー,その他,38696,848,57,613000,6.31,2026-04-13,YiitvyQGbkc
+26,Nate Herk | AI Automation,Claude Designが美しい3Dウェブサイトを瞬時に構築します（完全チュートリアル）,AI活用,42536,1394,160,684000,6.22,2026-04-21,TcFeSjwTo7g
+27,AI Engineer,【完全版ワークショップ】 実務エンジニアのためのAIコーディング - マット・ポコック（AIヒーロー）（@mattpocockuk）,AI活用,24621,955,33,415000,5.93,2026-04-24,-QFHIoCo-Ko
+28,AICodeKing,Qwen 3.6 27B + Hermes、OpenCode、OpenClaw: これは本当に素晴らしい！最高のローカルAIコーダーです！,AI活用,7331,154,12,127000,5.77,2026-04-23,SjBBUB1njBc
+29,Alex Finn,🔴ライブ配信：ChatGPT 5.5が登場。Claude Opus 4.7を超えるのか？,AI活用,9942,392,26,190000,5.23,2026-04-24,l2o6HYJpiQI
+30,Cole Medin,並列クロードコード＋Gitワークツリー：この設定で出荷方法が変わります,その他,9942,325,48,202000,4.92,2026-04-23,rFGlJ4oIlhw
+31,Nate Herk | AI Automation,OpenAI Image 2はすごい！その活用法を10通り紹介します。,AI活用,32908,854,92,684000,4.81,2026-04-22,GY-kAiZGLOw
+32,AICodeKing,Addy-Skills + Claude Code、Codex: この22スキル構成でパフォーマンスが10倍になります！,AI活用,5804,185,25,127000,4.57,2026-04-21,zrbGCYGQr18
+33,Cole Medin,独自のコードを出荷するAIダークファクトリーを構築中（公開実験）,AI活用,7863,258,37,202000,3.89,2026-04-16,6woc6ii-zoE
+34,AI LABS,一夜にして数百万ドルを稼ぎ出した、Vibe Codedのアプリ8選,その他,5020,129,6,131000,3.83,2026-04-20,zNOunnM1jTs
+35,Cole Medin,AIダークファクトリーは生きている：自らコードを書き出すコードベース、ライブ,AI活用,6922,164,15,202000,3.43,2026-04-19,0PgB3EQ74OM
+36,Claude,AIモデルにバイアスが存在するのはなぜか？,AI活用,6451,339,52,203000,3.18,2026-04-24,RnOWJoHU_NY
+37,Riley Brown,ChatGPTの新しい画像モデルは非常に優れているため、バーコード付きの書籍の画像を生成します...,その他,5563,164,9,218000,2.55,2026-04-21,y0c1W01YbP4
+38,NetworkChuck,ほとんどのAIコーディングツールはWindows上でサンドボックス化されていません（例外が1つあります）。,AI活用,105413,3231,171,5230000,2.02,2026-04-24,s1O09zc3xVY
+39,Ali Abdaal,クロード・コード入門のための究極の初心者ガイド,チュートリアル,131267,3988,195,6580000,1.99,2026-04-18,qLMYOhaKcZs
+40,AI Engineer,AIEマイアミ2日目！Cerebras、OpenCode、Cursor、Arize AIなど多数の企業が参加！,AI活用,7011,121,1,415000,1.69,2026-04-21,DeM_u2Ik0sk
+41,Krish Naik,AIの学習はますます簡単で楽しくなっています！その方法を知りませんか？,AI活用,20554,526,33,1410000,1.46,2026-04-19,JO1h85br4J0
+42,corbin,AIエージェント向けCLIを6分で解説（初心者向け）,AI活用,2411,83,13,167000,1.44,2026-04-06,X8aKh_8uC3M
+43,corbin,カーソル自動化機能の使い方（初心者向け）,その他,2076,56,3,167000,1.24,2026-04-12,Vp7eUYjG2wk
+44,Krish Naik,注目のAI関連職種：AIスペシャリスト、AIジェネラリスト、AIビルダー,AI活用,14935,481,52,1410000,1.06,2026-04-21,aIuPQjPQEb4
+45,Matt Wolfe,CanvaのAI機能が大幅にアップグレードされました,AI活用,8550,278,11,933000,0.92,2026-04-21,z5sL3nXPsss
+46,Krish Naik,AIエージェント構築チャレンジ2026 - Googleスタートアップ,AI活用,10791,332,9,1410000,0.77,2026-04-23,ZFoDo2Pgz1o
+47,corbin,Devin AI をエージェントコーディングに活用する方法,AI活用,1202,30,6,167000,0.72,2026-04-14,DX_-rafjZZM
+48,ProgrammingKnowledge,VS CodeでClaude Codeを設定する方法 - VS CodeでClaude Codeを使用する方法（2026）,比較,6878,68,3,1870000,0.37,2026-04-20,ujte4mwEQWM
+49,Krish Naik,最新のノーコードAI入門講座 - AIジェネラリストからAIビルダーへのブートキャンプ開催のお知らせ,チュートリアル,4911,126,11,1410000,0.35,2026-04-20,qV_zdsqvc1s
+50,Tyler Moore,Claude Design - Figmaは死んだ,AI活用,1496,45,28,472000,0.32,2026-04-18,iaASVi-cFGk
+51,Krish Naik,クロード・コード入門：Vibeコーディング解説＋ライブビルド｜5日目,チュートリアル,3963,125,2,1410000,0.28,2026-04-25,smqy7bWUwFc
+52,Tyler Moore,ChatGPT 5.5とClaude 4.7 - 切り替えるべきか？,AI活用,857,22,9,472000,0.18,2026-04-24,_FjUFf0TLRE
+53,ProgrammingKnowledge,Visual Studio CodeにOpenAI Codexをインストールする方法（AIコーディングアシスタントのセットアップ）（2026）,AI活用,1778,23,2,1870000,0.1,2026-04-22,kurkZN1o-4g
+54,Pragati Kunwer | Claude Code,クロード・コードスキルを一般人向けに解説,その他,117,3,2,113000,0.1,2026-04-16,AY_uYtwLc0I
+55,Pragati Kunwer | Claude Code,"プログラミング経験のない人がClaude Codeを使って月5,000ドルのAIビジネスを構築する方法",AI活用,89,1,1,113000,0.08,2026-04-21,Ci06hH5L0i4
+56,ProgrammingKnowledge,Visual Studio CodeでGemini Code Assistを設定する方法🚀完全ガイド（2026）,チュートリアル,943,25,1,1870000,0.05,2026-04-23,dcTEqfi7AnM
+57,ProgrammingKnowledge,MacでVisual Studio Codeを使ってC++開発環境をセットアップする | VSCode C++開発の基本（macOS版）（2026）,実装例,848,16,1,1870000,0.05,2026-04-17,-peE8wiRoqQ
+58,Pragati Kunwer | Claude Code,クロード・コードはあなたに取って代わることはありません。ユーザーこそがあなたに取って代わるのです。,その他,37,1,0,113000,0.03,2026-04-15,7T9rWSKqkdE
+59,Pragati Kunwer | Claude Code,クロード・コード・スキル：2026年最大のチャンス,その他,12,1,0,113000,0.01,2026-04-24,c0OMEmj6DFg
