@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>Claude Code バズ動画ダッシュボード</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --blue-950:#0b1b3a;
+    --blue-900:#0f2558;
+    --blue-800:#173a85;
+    --blue-700:#2253b8;
+    --blue-600:#2f6fe0;
+    --blue-500:#4f8ef7;
+    --blue-200:#cfe0fb;
+    --blue-100:#e7f0ff;
+    --blue-50:#f3f7ff;
+    --orange:#f07a2a;
+    --orange-soft:#ffe3cf;
+    --green:#1fa463;
+    --green-soft:#d7f3e3;
+    --ink:#0b1021;
+    --ink-2:#39405a;
+    --ink-3:#6a7390;
+    --line:#d9e1ef;
+    --paper:#f6f8fc;
+    --card:#ffffff;
+  }
+
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans JP",system-ui,-apple-system,sans-serif;font-feature-settings:"palt";}
+  body{padding:24px 16px 80px;}
+
+  .container{
+    max-width:1400px;
+    margin:0 auto;
+  }
+
+  header{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:16px;
+    padding:32px 40px;
+    margin-bottom:24px;
+    box-shadow: 0 1px 0 rgba(15,37,88,.02), 0 8px 24px -20px rgba(15,37,88,.35);
+    border-top:6px solid var(--orange);
+  }
+
+  h1{
+    font-size:32px;
+    font-weight:900;
+    margin:0 0 8px;
+    color:var(--blue-950);
+  }
+
+  .subtitle{
+    font-size:14px;
+    color:var(--ink-2);
+    margin:0;
+  }
+
+  .controls{
+    display:flex;
+    gap:12px;
+    margin-top:20px;
+    flex-wrap:wrap;
+  }
+
+  button{
+    padding:10px 20px;
+    border:1px solid var(--blue-600);
+    border-radius:8px;
+    background:var(--blue-600);
+    color:#fff;
+    font-size:14px;
+    font-weight:700;
+    cursor:pointer;
+    transition:all .15s ease;
+    font-family:"Noto Sans JP",system-ui;
+  }
+
+  button:hover{
+    background:var(--blue-700);
+    border-color:var(--blue-700);
+  }
+
+  button:disabled{
+    opacity:.5;
+    cursor:not-allowed;
+  }
+
+  .stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:12px;
+    margin-top:16px;
+  }
+
+  .stat-card{
+    background:var(--blue-50);
+    border:1px solid var(--blue-200);
+    border-radius:8px;
+    padding:12px 16px;
+  }
+
+  .stat-label{
+    font-size:11px;
+    color:var(--blue-700);
+    font-weight:700;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    font-family:"JetBrains Mono",monospace;
+    margin-bottom:4px;
+  }
+
+  .stat-value{
+    font-size:24px;
+    font-weight:900;
+    color:var(--blue-900);
+    font-family:"JetBrains Mono",monospace;
+  }
+
+  .filters{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:16px;
+    margin-bottom:20px;
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+    align-items:center;
+  }
+
+  .filter-tag{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    background:var(--blue-50);
+    border:1px solid var(--blue-200);
+    padding:6px 12px;
+    border-radius:999px;
+    font-size:12px;
+    cursor:pointer;
+  }
+
+  .filter-tag.active{
+    background:var(--orange);
+    color:#fff;
+    border-color:var(--orange);
+  }
+
+  .videos-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+    gap:16px;
+  }
+
+  .video-card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow: 0 1px 0 rgba(15,37,88,.02), 0 8px 16px -12px rgba(15,37,88,.3);
+    transition:all .2s ease;
+  }
+
+  .video-card:hover{
+    border-color:var(--blue-600);
+    box-shadow: 0 1px 0 rgba(15,37,88,.02), 0 12px 24px -12px rgba(15,37,88,.45);
+  }
+
+  .video-thumbnail{
+    width:100%;
+    aspect-ratio:16/9;
+    background:#ddd;
+    object-fit:cover;
+    cursor:pointer;
+  }
+
+  .video-content{
+    padding:16px;
+  }
+
+  .video-rank{
+    display:inline-block;
+    background:var(--orange);
+    color:#fff;
+    font-size:12px;
+    font-weight:700;
+    padding:4px 8px;
+    border-radius:4px;
+    margin-bottom:8px;
+    font-family:"JetBrains Mono",monospace;
+  }
+
+  .video-title{
+    font-size:15px;
+    font-weight:700;
+    color:var(--ink);
+    margin:0 0 8px;
+    line-height:1.4;
+    cursor:pointer;
+  }
+
+  .video-title:hover{
+    color:var(--blue-600);
+  }
+
+  .video-channel{
+    font-size:12px;
+    color:var(--ink-2);
+    margin-bottom:4px;
+    font-weight:600;
+  }
+
+  .video-original-title{
+    font-size:11px;
+    color:var(--ink-3);
+    margin-bottom:4px;
+    font-style:italic;
+    line-height:1.3;
+  }
+
+  .video-duration{
+    font-size:11px;
+    color:var(--blue-600);
+    margin-bottom:8px;
+    font-weight:600;
+  }
+
+  .video-pattern{
+    display:inline-block;
+    background:var(--blue-100);
+    color:var(--blue-800);
+    font-size:11px;
+    font-weight:700;
+    padding:3px 8px;
+    border-radius:4px;
+    margin-bottom:10px;
+  }
+
+  .video-stats{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:8px;
+    padding-top:10px;
+    border-top:1px dashed var(--line);
+  }
+
+  .stat{
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+  }
+
+  .stat-k{
+    font-size:10px;
+    color:var(--ink-3);
+    font-weight:700;
+    letter-spacing:.08em;
+  }
+
+  .stat-v{
+    font-size:13px;
+    font-weight:900;
+    color:var(--ink);
+    font-family:"JetBrains Mono",monospace;
+  }
+
+  .buzz-score{
+    font-size:16px !important;
+    color:var(--orange) !important;
+  }
+
+  .published{
+    font-size:11px;
+    color:var(--ink-3);
+    margin-top:8px;
+    padding-top:8px;
+    border-top:1px dashed var(--line);
+  }
+
+  .patterns-section{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:20px;
+    margin-top:24px;
+  }
+
+  .patterns-section h3{
+    margin:0 0 16px;
+    font-size:18px;
+    font-weight:800;
+    color:var(--blue-950);
+  }
+
+  .patterns-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:12px;
+  }
+
+  .pattern-card{
+    border:1px solid var(--line);
+    border-radius:8px;
+    padding:12px;
+    background:var(--blue-50);
+  }
+
+  .pattern-name{
+    font-size:14px;
+    font-weight:800;
+    color:var(--ink);
+    margin-bottom:4px;
+  }
+
+  .pattern-count{
+    font-size:11px;
+    color:var(--ink-3);
+  }
+
+  .pattern-buzz{
+    font-size:12px;
+    font-weight:700;
+    color:var(--orange);
+    margin-top:4px;
+    font-family:"JetBrains Mono",monospace;
+  }
+
+  .loading{
+    text-align:center;
+    padding:40px 20px;
+    color:var(--ink-2);
+  }
+
+  .footer{
+    text-align:center;
+    margin-top:40px;
+    padding-top:20px;
+    border-top:1px dashed var(--line);
+    font-size:11px;
+    color:var(--ink-3);
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>🚀 Claude Code <span style="color:var(--orange);">バズ動画</span> ダッシュボード</h1>
+    <p class="subtitle">AI系 / Claude Code系 / 生産性・効率化に関連した動画を、バズ度順にランキング</p>
+
+    <div class="controls">
+      <button onclick="refreshData()">🔄 データ更新</button>
+      <button onclick="exportCSV()">📥 CSV エクスポート</button>
+    </div>
+
+    <div class="stats" id="statsContainer">
+      <div class="stat-card">
+        <div class="stat-label">抽出動画数</div>
+        <div class="stat-value" id="totalCount">-</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">TOP バズスコア</div>
+        <div class="stat-value" id="topBuzz">-</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">平均バズスコア</div>
+        <div class="stat-value" id="avgBuzz">-</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">最新更新</div>
+        <div class="stat-value" id="lastUpdate" style="font-size:12px;">-</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="filters" id="filtersContainer">
+    <div style="display:flex;gap:24px;flex-wrap:wrap;width:100%;">
+      <div>
+        <span style="font-size:12px;color:var(--ink-2);font-weight:700;">動画形式:</span>
+        <div style="display:flex;gap:8px;margin-top:8px;">
+          <div class="filter-tag" onclick="filterByType('all')">すべて</div>
+          <div class="filter-tag" onclick="filterByType('Shorts')">🎬 Shorts</div>
+          <div class="filter-tag" onclick="filterByType('通常動画')">📹 通常動画</div>
+        </div>
+      </div>
+      <div>
+        <span style="font-size:12px;color:var(--ink-2);font-weight:700;">企画パターン:</span>
+        <div id="patternFiltersContainer" style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap;"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="loading" id="loading" style="display:none;">
+    📊 データを読み込み中...
+  </div>
+
+  <div class="videos-grid" id="videosContainer">
+  </div>
+
+  <div class="patterns-section" id="patternsSection" style="display:none;">
+    <h3>📈 企画パターン分析</h3>
+    <div class="patterns-grid" id="patternsContainer"></div>
+  </div>
+
+  <div class="footer">
+    Claude Code バズ動画ダッシュボード · 最後の更新: <span id="footerTime">-</span>
+  </div>
+
+</div>
+
+<script>
+let allVideos = [];
+let allPatterns = {};
+let activePatternFilter = null;
+let activeTypeFilter = "all";
+
+async function loadData() {
+  document.getElementById('loading').style.display = 'block';
+  try {
+    const response = await fetch('buzz_videos_data.json');
+    const data = await response.json();
+
+    allVideos = data.videos || [];
+    allPatterns = data.patterns || {};
+
+    updateStats(data);
+    renderPatternFilters();
+    renderVideos(allVideos);
+
+    const updateTime = new Date(data.generated_at).toLocaleString('ja-JP');
+    document.getElementById('footerTime').textContent = updateTime;
+
+  } catch (error) {
+    console.error('データ読み込みエラー:', error);
+    document.getElementById('videosContainer').innerHTML = '<p style="grid-column:1/-1;text-align:center;padding:40px;">⚠️ データの読み込みに失敗しました</p>';
+  } finally {
+    document.getElementById('loading').style.display = 'none';
+  }
+}
+
+function updateStats(data) {
+  document.getElementById('totalCount').textContent = data.total_count;
+
+  const buzzScores = data.videos.map(v => v.buzz_score);
+  const topBuzz = Math.max(...buzzScores).toFixed(2);
+  const avgBuzz = (buzzScores.reduce((a,b)=>a+b,0) / buzzScores.length).toFixed(2);
+
+  document.getElementById('topBuzz').textContent = topBuzz;
+  document.getElementById('avgBuzz').textContent = avgBuzz;
+}
+
+function renderPatternFilters() {
+  const container = document.getElementById('patternFiltersContainer');
+  const filterHtml = Object.keys(allPatterns).map(pattern =>
+    `<div class="filter-tag" onclick="filterByPattern('${pattern}')">${pattern}</div>`
+  ).join('');
+  container.innerHTML = filterHtml;
+}
+
+function filterByPattern(pattern) {
+  activePatternFilter = activePatternFilter === pattern ? null : pattern;
+  document.querySelectorAll('#patternFiltersContainer .filter-tag').forEach(tag => {
+    tag.classList.toggle('active', tag.textContent.trim() === pattern);
+  });
+  applyFilters();
+}
+
+function filterByType(type) {
+  activeTypeFilter = type;
+  document.querySelectorAll('.filters .filter-tag').forEach(tag => {
+    const tagType = tag.textContent.includes('Shorts') ? 'Shorts' : tag.textContent.includes('通常') ? '通常動画' : 'all';
+    tag.classList.toggle('active', tagType === type);
+  });
+  applyFilters();
+}
+
+function applyFilters() {
+  let filtered = allVideos;
+
+  if (activeTypeFilter !== "all") {
+    filtered = filtered.filter(v => v.video_type === activeTypeFilter);
+  }
+
+  if (activePatternFilter) {
+    filtered = filtered.filter(v => v.pattern === activePatternFilter);
+  }
+
+  renderVideos(filtered);
+}
+
+function renderVideos(videos) {
+  const container = document.getElementById('videosContainer');
+
+  if (videos.length === 0) {
+    container.innerHTML = '<p style="grid-column:1/-1;text-align:center;padding:40px;color:var(--ink-2);">該当する動画がありません</p>';
+    document.getElementById('patternsSection').style.display = 'none';
+    return;
+  }
+
+  const html = videos.map((video, idx) => {
+    const views = video.views.toLocaleString('ja-JP');
+    const likes = video.likes.toLocaleString('ja-JP');
+    const subs = video.subscriber_count.toLocaleString('ja-JP');
+    const buzz = video.buzz_score.toFixed(2);
+    const typeLabel = video.video_type === 'Shorts' ? '🎬 Shorts' : '📹 通常動画';
+    const duration = video.duration_seconds ? Math.round(video.duration_seconds / 60) + '分' : '-';
+
+    return `
+      <div class="video-card">
+        <img src="${video.thumbnail_url}" alt="${video.video_title}" class="video-thumbnail" onclick="window.open('${video.youtube_url}', '_blank')">
+        <div class="video-content">
+          <div style="display:flex;gap:6px;margin-bottom:8px;">
+            <div class="video-rank">#${idx + 1} バズスコア: ${buzz}</div>
+            <div style="display:inline-block;background:#e7f0ff;color:#173a85;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;">${typeLabel}</div>
+          </div>
+          <h3 class="video-title" onclick="window.open('${video.youtube_url}', '_blank')">${video.video_title}</h3>
+          <div class="video-channel">📺 ${video.channel}</div>
+          <div class="video-original-title">${video.original_title || '-'}</div>
+          <div class="video-duration">⏱️ ${video.duration_minutes || '-'}分</div>
+          <span class="video-pattern">${video.pattern}</span>
+
+          <div class="video-stats">
+            <div class="stat">
+              <div class="stat-k">再生数</div>
+              <div class="stat-v">${views}</div>
+            </div>
+            <div class="stat">
+              <div class="stat-k">高評価</div>
+              <div class="stat-v">${likes}</div>
+            </div>
+            <div class="stat">
+              <div class="stat-k">コメント</div>
+              <div class="stat-v">${video.comments.toLocaleString('ja-JP')}</div>
+            </div>
+            <div class="stat">
+              <div class="stat-k">登録者数</div>
+              <div class="stat-v">${subs}</div>
+            </div>
+          </div>
+
+          <div class="published">📅 ${video.published}</div>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  container.innerHTML = html;
+
+  if (Object.keys(allPatterns).length > 0) {
+    renderPatterns();
+    document.getElementById('patternsSection').style.display = 'block';
+  }
+}
+
+function renderPatterns() {
+  const container = document.getElementById('patternsContainer');
+  const html = Object.entries(allPatterns)
+    .sort((a, b) => b[1].avg_buzz_score - a[1].avg_buzz_score)
+    .map(([pattern, stats]) => `
+      <div class="pattern-card">
+        <div class="pattern-name">${pattern}</div>
+        <div class="pattern-count">📊 ${stats.count}本</div>
+        <div class="pattern-buzz">スコア: ${stats.avg_buzz_score.toFixed(2)}</div>
+      </div>
+    `).join('');
+
+  container.innerHTML = html;
+}
+
+function refreshData() {
+  loadData();
+}
+
+function exportCSV() {
+  const csv = "rank,channel,title,pattern,views,likes,comments,subscriber_count,buzz_score,published\n" +
+    allVideos.map((v, i) =>
+      `${i+1},"${v.channel}","${v.video_title}","${v.pattern}",${v.views},${v.likes},${v.comments},${v.subscriber_count},${v.buzz_score},"${v.published}"`
+    ).join('\n');
+
+  const blob = new Blob([csv], {type: 'text/csv;charset=utf-8;'});
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = 'buzz_videos.csv';
+  link.click();
+}
+
+// ページ読み込み時にデータ取得
+loadData();
+</script>
+
+</body>
+</html>
