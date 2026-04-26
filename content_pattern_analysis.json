@@ -1,0 +1,231 @@
+{
+  "analyzed_at": "2026-04-25T18:08:04.275176",
+  "total_videos": 150,
+  "patterns": {
+    "プロジェクト紹介": {
+      "count": 2,
+      "avg_buzz_score": 36.92,
+      "top_videos": [
+        {
+          "title": "An initiative to secure the world's software | Project Glasswing",
+          "channel": "Anthropic",
+          "buzz_score": 61.37
+        },
+        {
+          "title": "This Is How You Need To Start Every Coding Project",
+          "channel": "AI LABS",
+          "buzz_score": 12.48
+        }
+      ]
+    },
+    "比較": {
+      "count": 4,
+      "avg_buzz_score": 26.52,
+      "top_videos": [
+        {
+          "title": "AI CEO vs engineer.",
+          "channel": "Kai Lentit",
+          "buzz_score": 84.14
+        },
+        {
+          "title": "I Tested GPT 5.5 vs Opus 4.7: What You Need to Know",
+          "channel": "Nate Herk | AI Automation",
+          "buzz_score": 14.59
+        },
+        {
+          "title": "GPT-5.5 VS Deepseek V4 Pro VS Opus 4.7: I tested THEM on My KingBench 2.0 Questions!",
+          "channel": "AICodeKing",
+          "buzz_score": 7.19
+        },
+        {
+          "title": "ChatGPT 5.5 vs Claude 4.7 - Should you switch?",
+          "channel": "Tyler Moore",
+          "buzz_score": 0.14
+        }
+      ]
+    },
+    "AI活用": {
+      "count": 57,
+      "avg_buzz_score": 17.5,
+      "top_videos": [
+        {
+          "title": "Introducing Claude Design by Anthropic Labs",
+          "channel": "Claude",
+          "buzz_score": 345.77
+        },
+        {
+          "title": "Introducing Claude Opus 4.6",
+          "channel": "Anthropic",
+          "buzz_score": 66.38
+        },
+        {
+          "title": "When AIs act emotional",
+          "channel": "Anthropic",
+          "buzz_score": 48.73
+        },
+        {
+          "title": "Google just casually disrupted the open-source AI narrative…",
+          "channel": "Fireship",
+          "buzz_score": 30.97
+        },
+        {
+          "title": "How AI agents & Claude skills work (Clearly Explained)",
+          "channel": "Greg Isenberg",
+          "buzz_score": 30.63
+        }
+      ]
+    },
+    "その他": {
+      "count": 54,
+      "avg_buzz_score": 16.9,
+      "top_videos": [
+        {
+          "title": "Engineer leaving for Big Tech.",
+          "channel": "Kai Lentit",
+          "buzz_score": 331.56
+        },
+        {
+          "title": "I am monitoring the situation.",
+          "channel": "Kai Lentit",
+          "buzz_score": 100.71
+        },
+        {
+          "title": "*every corporate job*",
+          "channel": "Kai Lentit",
+          "buzz_score": 75.67
+        },
+        {
+          "title": "Corporate Unemployee (Day in the Life)",
+          "channel": "Kai Lentit",
+          "buzz_score": 60.58
+        },
+        {
+          "title": "My M5 Max, Gemma 4, MLX LOCAL Stack. (This KILLS MODEL PROVIDERS)",
+          "channel": "IndyDevDan",
+          "buzz_score": 31.43
+        }
+      ]
+    },
+    "事例紹介": {
+      "count": 1,
+      "avg_buzz_score": 8.8,
+      "top_videos": [
+        {
+          "title": "I finally found a use case for OpenClaw…",
+          "channel": "Fireship",
+          "buzz_score": 8.8
+        }
+      ]
+    },
+    "Tips・技術": {
+      "count": 3,
+      "avg_buzz_score": 7.04,
+      "top_videos": [
+        {
+          "title": "Millions of WordPress sites just got hacked... again",
+          "channel": "Fireship",
+          "buzz_score": 10.76
+        },
+        {
+          "title": "Top 10 NotebookLM Tips and Tricks in 2026",
+          "channel": "Skill Leap AI",
+          "buzz_score": 7.1
+        },
+        {
+          "title": "5 tips for OpenClaw",
+          "channel": "Greg Isenberg",
+          "buzz_score": 3.25
+        }
+      ]
+    },
+    "チュートリアル": {
+      "count": 18,
+      "avg_buzz_score": 3.64,
+      "top_videos": [
+        {
+          "title": "How To Use Claude Design For Beginners",
+          "channel": "corbin",
+          "buzz_score": 23.59
+        },
+        {
+          "title": "OpenClaw Full Tutorial: Set up your first AI employee!",
+          "channel": "Alex Finn",
+          "buzz_score": 22.24
+        },
+        {
+          "title": "Claude Design Builds Beautiful 3D Websites Instantly (full tutorial)",
+          "channel": "Nate Herk | AI Automation",
+          "buzz_score": 6.15
+        },
+        {
+          "title": "Codex Just Replaced 1,000 Hours of Video Editing Tutorials",
+          "channel": "Riley Brown",
+          "buzz_score": 3.9
+        },
+        {
+          "title": "How to Create EPIC Infographics with NotebookLM for Free",
+          "channel": "Skill Leap AI",
+          "buzz_score": 2.18
+        }
+      ]
+    },
+    "トレンド・ニュース": {
+      "count": 2,
+      "avg_buzz_score": 3.04,
+      "top_videos": [
+        {
+          "title": "AI News: The Biggest Leap We've Seen This Year!",
+          "channel": "Matt Wolfe",
+          "buzz_score": 5.96
+        },
+        {
+          "title": "Rapid Fire Top AI News This Week",
+          "channel": "Matt Wolfe",
+          "buzz_score": 0.12
+        }
+      ]
+    },
+    "レビュー": {
+      "count": 1,
+      "avg_buzz_score": 1.17,
+      "top_videos": [
+        {
+          "title": "My most controversial opinion....",
+          "channel": "Matt Wolfe",
+          "buzz_score": 1.17
+        }
+      ]
+    },
+    "実装例": {
+      "count": 8,
+      "avg_buzz_score": 0.8,
+      "top_videos": [
+        {
+          "title": "I'm Building an AI Dark Factory That Ships Its Own Code (Public Experiment)",
+          "channel": "Cole Medin",
+          "buzz_score": 3.88
+        },
+        {
+          "title": "Trending AI Career Roles- AI Specialist, AI Generalist And AI Builder",
+          "channel": "Krish Naik",
+          "buzz_score": 1.05
+        },
+        {
+          "title": "Building AI Agents Challenge 2026- Google Startup",
+          "channel": "Krish Naik",
+          "buzz_score": 0.72
+        },
+        {
+          "title": "Modern No Code AI Route-AI Generalist to AI Builder Bootcamp Announcement",
+          "channel": "Krish Naik",
+          "buzz_score": 0.34
+        },
+        {
+          "title": "Claude Code for Non-Developers: Vibe Coding Explained + Live Build | Day 5",
+          "channel": "Krish Naik",
+          "buzz_score": 0.26
+        }
+      ]
+    }
+  }
+}

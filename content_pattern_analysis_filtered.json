@@ -1,0 +1,180 @@
+{
+  "analyzed_at": "2026-04-25T20:45:46.455159",
+  "filter_keywords": {
+    "AI系": [
+      "AI",
+      "Claude",
+      "LLM",
+      "機械学習",
+      "自動化",
+      "生成",
+      "アシスタント"
+    ],
+    "Claude Code系": [
+      "Claude Code",
+      "Code",
+      "プログラミング",
+      "開発",
+      "コード",
+      "エンジニア"
+    ],
+    "生産性・効率化": [
+      "生産性",
+      "効率化",
+      "時短",
+      "最適化",
+      "オートメーション",
+      "ワークフロー",
+      "タスク自動化"
+    ]
+  },
+  "total_videos": 71,
+  "patterns": {
+    "その他": {
+      "count": 16,
+      "avg_buzz_score": 27.72,
+      "top_videos": [
+        {
+          "title": "大手IT企業へ転職するエンジニア。",
+          "channel": "Kai Lentit",
+          "buzz_score": 331.56
+        },
+        {
+          "title": "私のPiエージェントチーム。クロードコードリークシグナル。ハーネスエンジニアリング",
+          "channel": "IndyDevDan",
+          "buzz_score": 24.1
+        },
+        {
+          "title": "エージェントは1つだけでは不十分：クロード・コードを超えるエージェント・コーディング",
+          "channel": "IndyDevDan",
+          "buzz_score": 21.66
+        },
+        {
+          "title": "GPT 5.5 + Codex が史上最高のモデルになった",
+          "channel": "Riley Brown",
+          "buzz_score": 17.43
+        },
+        {
+          "title": "未出荷モデル第1弾：クロード・ミトス（シニアエンジニアによる解説）",
+          "channel": "IndyDevDan",
+          "buzz_score": 13.78
+        }
+      ]
+    },
+    "AI活用": {
+      "count": 43,
+      "avg_buzz_score": 18.82,
+      "top_videos": [
+        {
+          "title": "Anthropic LabsによるClaude Designをご紹介します。",
+          "channel": "Claude",
+          "buzz_score": 345.77
+        },
+        {
+          "title": "AIのCEO対エンジニア。",
+          "channel": "Kai Lentit",
+          "buzz_score": 84.14
+        },
+        {
+          "title": "AIが感情的に振る舞うとき",
+          "channel": "Anthropic",
+          "buzz_score": 48.73
+        },
+        {
+          "title": "Googleは、オープンソースAIの常識をあっさりと覆した…。",
+          "channel": "Fireship",
+          "buzz_score": 30.97
+        },
+        {
+          "title": "AIエージェントとクロードのスキルがどのように機能するのか（分かりやすく解説）",
+          "channel": "Greg Isenberg",
+          "buzz_score": 30.63
+        }
+      ]
+    },
+    "実装例": {
+      "count": 3,
+      "avg_buzz_score": 4.76,
+      "top_videos": [
+        {
+          "title": "Claude Codeの開発者が、Claude Code（Opus 4.7）を使いこなすための7つの秘訣を公開しました。",
+          "channel": "Alex Finn",
+          "buzz_score": 14.17
+        },
+        {
+          "title": "ジュニア開発者であれば、Swyx はステップアップする方法を説明します",
+          "channel": "freeCodeCamp.org",
+          "buzz_score": 0.06
+        },
+        {
+          "title": "MacでVisual Studio Codeを使ってC++開発環境をセットアップする | VSCode C++開発の基本（macOS版）（2026）",
+          "channel": "ProgrammingKnowledge",
+          "buzz_score": 0.04
+        }
+      ]
+    },
+    "チュートリアル": {
+      "count": 4,
+      "avg_buzz_score": 0.66,
+      "top_videos": [
+        {
+          "title": "クロード・コード入門のための究極の初心者ガイド",
+          "channel": "Ali Abdaal",
+          "buzz_score": 1.98
+        },
+        {
+          "title": "最新のノーコードAI入門講座 - AIジェネラリストからAIビルダーへのブートキャンプ開催のお知らせ",
+          "channel": "Krish Naik",
+          "buzz_score": 0.34
+        },
+        {
+          "title": "クロード・コード入門：Vibeコーディング解説＋ライブビルド｜5日目",
+          "channel": "Krish Naik",
+          "buzz_score": 0.26
+        },
+        {
+          "title": "Visual Studio CodeでGemini Code Assistを設定する方法🚀完全ガイド（2026）",
+          "channel": "ProgrammingKnowledge",
+          "buzz_score": 0.05
+        }
+      ]
+    },
+    "比較": {
+      "count": 1,
+      "avg_buzz_score": 0.37,
+      "top_videos": [
+        {
+          "title": "VS CodeでClaude Codeを設定する方法 - VS CodeでClaude Codeを使用する方法（2026）",
+          "channel": "ProgrammingKnowledge",
+          "buzz_score": 0.37
+        }
+      ]
+    },
+    "トレンド・ニュース": {
+      "count": 4,
+      "avg_buzz_score": 0.22,
+      "top_videos": [
+        {
+          "title": "AIユーザーなら誰もがチェックすべき！✨#トレンド #コーディング #クロード #ブラックボックスAI #ショート動画 #バイラル #AI",
+          "channel": "Claude Ams - Programming Guru 💻",
+          "buzz_score": 0.32
+        },
+        {
+          "title": "学生全員の救世主❤️‍🔥#トレンド #バイラル #ショート #AI #勉強 #試験 #YT #クロード #テクノロジー",
+          "channel": "Claude Ams - Programming Guru 💻",
+          "buzz_score": 0.31
+        },
+        {
+          "title": "みんなこれを知っておくべきだよ！😳#トレンド #クロード #ブラックボックスAI #ショート #コーディング #AI #YouTube #ショート",
+          "channel": "Claude Ams - Programming Guru 💻",
+          "buzz_score": 0.22
+        },
+        {
+          "title": "これらすべてはAIを使うだけで実現しました😳#トレンド #バイラル #コーディング #AI #AIツール #クロード #ブラックボックスAI #ショート",
+          "channel": "Claude Ams - Programming Guru 💻",
+          "buzz_score": 0.03
+        }
+      ]
+    }
+  }
+}
